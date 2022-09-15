@@ -41,13 +41,13 @@
 		<!-- Seção header -->
 		<div class="container">
 			<div class="row">
-				<div class="texto-header">
+				<div class="texto-header col-md-6">
 					<h1 class="font-weight-bold">Lorem ipsum dolor amet consectetur.</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea error reprehenderit enim adipisci, tempore et nihil quis natus consectetur cumque</p>
             <a href="index.html"><button class="btn-header2">SOLICITAR ORÇAMENTO</button></a>
 				</div>
-				<div class="header-img">
-					<img src="media/Monitor.png">
+				<div class="header-img col-md-6">
+					<img src="media/monitor.png">
 				</div>
 			</div>
 		</div>
@@ -125,6 +125,8 @@
           
       </div>
 
+      <!-- Carrosel web -->
+
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -160,6 +162,64 @@
         </a>
       </div>
 
+      <!-- Carrosel celular -->
+
+      <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row d-flex justify-content-center">
+              <img class="d-block carrosel-img" src="media/5adc69c317a82e88002b217727f36257.jpg" alt="Primeiro Slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center">
+              <img class="d-block carrosel-img" src="media/Logotipo 3.png" alt="Primeiro Slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center">
+              <img class="d-block carrosel-img" src="media/5adc69c317a82e88002b217727f36257.jpg" alt="Primeiro Slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center">
+              <img class="d-block carrosel-img" src="media/5adc69c317a82e88002b217727f36257.jpg" alt="Primeiro Slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center">
+              <img class="d-block carrosel-img" src="media/5adc69c317a82e88002b217727f36257.jpg" alt="Primeiro Slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center">
+              <img class="d-block carrosel-img" src="media/5adc69c317a82e88002b217727f36257.jpg" alt="Primeiro Slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center">
+              <img class="d-block carrosel-img" src="media/5adc69c317a82e88002b217727f36257.jpg" alt="Primeiro Slide">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center">
+              <img class="d-block carrosel-img" src="media/5adc69c317a82e88002b217727f36257.jpg" alt="Primeiro Slide">
+            </div>
+          </div>
+        </div>
+  
+        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+      <!-- Carrosel celular -->
+
     </section>
 
     <section class="section3">
@@ -185,9 +245,17 @@
 
             <div class="formulario col-md-5">
               <form action="">
-                  <div class="form-icons"><i class="fa-regular fa-user"></i><input type="text" name="" id="" placeholder="Digite seu nome"></div>
-                  <div class="form-icons"><i class="fa-regular fa-envelope"></i><input type="email" name="" id="" placeholder="Digite um e-mail válido"></div>
-                  <input type="submit" value="Enviar" class="btn-submit mt-3">      
+                  <div class="centralizar mt-3">
+                      <label class="login-label">
+                        <span>Digite seu nome</span>
+                        <input type="text" name="name" class="input">
+                      </label>
+                    <label class="login-label">
+                      <span>Digite um e-mail válido</span>
+                      <input type="email" name="email" class="input">
+                    </label>
+                    <input type="submit" value="Enviar" class="btn-submit">
+                  </div> 
               </form>
             </div>
           </div>
@@ -206,10 +274,7 @@
       </div>
     </footer>
 
-    
-
-
-
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/4644a15bdd.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
